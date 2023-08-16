@@ -1,34 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Firebase + ReactJS + Next.js + TypeScript  
+<div align="center">
+  <img  width="60%" 
+    src="https://github.com/gustavoramosdesousa/react-firebase-demo/blob/main/public/tela_inicial_demo.png" alt="Cyber" />
+  <p>Esta aplicação possui apenas a tela inicial ✌</p>
+</div>
 
-## Getting Started
 
-First, run the development server:
+### Sobre o projeto
+Trata-se de uma aplicação de demonstração que se propõe a integrar os serviços do Firebase (versão superior a 9) com ReactJS. O diferencial do projeto é que ele é totalmente tipado, fazendo forte uso do TypeScript. 
+
+##### Funcionalidades
+- Salvar documentos no firebase (utilizando [addDoc](https://firebase.google.com/docs/reference/js/firestore_?hl=pt-br#adddoc));
+- Recuperar documentos via chamada síncrona (utilizando [getDocs](https://firebase.google.com/docs/reference/js/firestore_?hl=pt-br#getdocs));
+- Recuperar documento de forma automática (utilizando [onSnapShot](https://firebase.google.com/docs/reference/js/firestore_?hl=pt-br#onsnapshot)).
+
+##### Tecnologias Utilizadas
+ ![TypeScript](https://img.shields.io/badge/-TypeScript-blue?style=flat&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/-Next.js-0A1A2F?style=flat&logo=next.js) ![Firebase](https://img.shields.io/badge/-Firebase-orange?style=flat&logo=firebase)
+
+
+## Instalação
+
+Após clonar o projeto, rode os comandos:
 
 ```bash
+npm install
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) e veja o resultado!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Você deve, contudo, atualizar o arquivo `"react-firebase-demo/src/app/services/firebase.ts"` para colocar suas credenciais de acesso ao firebase:
+```typescript
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+const firebase_config = {
+  apiKey: API_KEY,
+  authDomain: AUTH_DOMAIN,
+  databaseURL: DATABASE_URL,
+  projectId: PROJECT_ID,
+  storageBucket: STORAGE_BUCKET,
+  messagingSenderId: MESSAGING_SENDER_ID,
+  appId: APP_ID
+};
 
-## Learn More
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Como Usar
+### Salvar documentos
+<div align="center">
+  <img  width="60%" 
+    src="https://github.com/gustavoramosdesousa/react-firebase-demo/blob/main/public/salvar_documento.png" alt="Cyber" />
+  <p>Esta aplicação possui apenas a tela inicial ✌</p>
+</div>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Recuperar documentos via chamada síncrona 
+<div align="center">
+  <img  width="60%" 
+    src="https://github.com/gustavoramosdesousa/react-firebase-demo/blob/main/public/recuperar_documentos_sincrono.png" alt="Cyber" />
+  <p>Esta aplicação possui apenas a tela inicial ✌</p>
+</div>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Recuperar documento de forma automática
+É só esperar a mágica acontecer 😎
+<div align="center">
+  <img  width="60%" 
+    src="https://github.com/gustavoramosdesousa/react-firebase-demo/blob/main/public/recuperar_documentos_assincrono.png" alt="Cyber" />
+  <p>Esta aplicação possui apenas a tela inicial ✌</p>
+</div>
