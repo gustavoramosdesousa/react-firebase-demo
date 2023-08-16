@@ -56,14 +56,12 @@ E remover o import, também do arquivo firebase.ts:
 <div align="center">
   <img  width="60%" 
     src="https://github.com/gustavoramosdesousa/react-firebase-demo/blob/main/public/salvar_documento.png" alt="Cyber" />
-  <p>Esta aplicação possui apenas a tela inicial ✌</p>
 </div>
 
 ### Recuperar documentos via chamada síncrona 
 <div align="center">
   <img  width="60%" 
     src="https://github.com/gustavoramosdesousa/react-firebase-demo/blob/main/public/recuperar_documentos_sincrono.png" alt="Cyber" />
-  <p>Esta aplicação possui apenas a tela inicial ✌</p>
 </div>
 
 ### Recuperar documento de forma automática
@@ -71,5 +69,4 @@ E remover o import, também do arquivo firebase.ts:
 <div align="center">
   <img  width="60%" 
     src="https://github.com/gustavoramosdesousa/react-firebase-demo/blob/main/public/recuperar_documentos_assincrono.png" alt="Cyber" />
-  <p>Esta aplicação possui apenas a tela inicial ✌</p>
 </div>
