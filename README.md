@@ -45,6 +45,10 @@ const firebase_config = {
 
 ```
 
+E remover o import, também do arquivo firebase.ts:
+
+`import {API_KEY, AUTH_DOMAIN, DATABASE_URL, PROJECT_ID, STORAGE_BUCKET, MESSAGING_SENDER_ID, APP_ID} from '../../app/private';`
+
 ## Como Usar
 ### Salvar documentos
 <div align="center">
