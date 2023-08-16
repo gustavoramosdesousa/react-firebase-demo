@@ -17,6 +17,8 @@ Trata-se de uma aplicação de demonstração que se propõe a integrar os servi
 ##### Tecnologias Utilizadas
  ![TypeScript](https://img.shields.io/badge/-TypeScript-blue?style=flat&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/-Next.js-0A1A2F?style=flat&logo=next.js) ![Firebase](https://img.shields.io/badge/-Firebase-orange?style=flat&logo=firebase)
 
+##### Status do Projeto
+![](https://img.shields.io/badge/STATUS:-CONCLUÍDO-blue)
 
 ## Instalação
 
